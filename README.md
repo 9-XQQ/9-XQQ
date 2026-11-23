@@ -1,37 +1,39 @@
 
 <div align="center">
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0B1120,100:0E7490&height=190&section=header&text=9-XQQ&fontSize=55&fontColor=ffffff&fontAlignY=38&desc=Python%20Backend%20%7C%20AI%20Systems&descAlignY=62&descSize=18"/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0B1120,100:0E7490&height=190&section=header&text=9-XQQ&fontSize=55&fontColor=ffffff&fontAlignY=38&desc=Python%20Backend%20%7C%20AI%20Systems&descAlignY=62&descSize=18" />
 
 <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=18&duration=3000&pause=1000&color=0891B2&center=true&vCenter=true&width=680&lines=Building+reliable+AI+applications;Exploring+LLM+inference+systems;Learning+by+building+and+measuring" alt="Typing SVG" />
 
 <p>
   <a href="https://github.com/9-XQQ">
-    <img src="https://img.shields.io/badge/GitHub-9--XQQ-181717?style=flat-square&logo=github"/>
+    <img src="https://img.shields.io/badge/GitHub-9--XQQ-181717?style=flat-square&logo=github" />
   </a>
-  <img src="https://img.shields.io/badge/Focus-AI%20Systems-0891B2?style=flat-square"/>
-  <img src="https://img.shields.io/badge/Status-Learning%20%26%20Building-2563EB?style=flat-square"/>
+  <img src="https://img.shields.io/badge/Focus-AI%20Systems-0891B2?style=flat-square" />
+  <img src="https://img.shields.io/badge/Status-Learning%20%26%20Building-2563EB?style=flat-square" />
 </p>
 
 </div>
 
 ## 👋 About Me
 
-I'm a Master's student in Automation with an interest in **AI systems, LLM applications, and backend engineering**.
+你好！我是一名自动化专业的硕士研究生。
 
-I enjoy building practical software, understanding how systems work, and connecting software with the underlying hardware.
+目前主要关注 **AI 应用开发、Python 后端工程，以及大模型推理与编译优化方向**。
+
+喜欢从实际项目出发理解技术，不仅关注功能实现，也关注系统架构、运行效率和工程可靠性。
 
 ```python
 developer = {
     "background": "Automation / BCI",
     "languages": ["Python", "C/C++", "SQL"],
     "engineering": [
-        "Backend APIs",
+        "Backend Development",
         "LLM Agent Workflows",
         "Retrieval Systems",
         "Automated Testing"
     ],
-    "currently_exploring": [
+    "currently_learning": [
         "PyTorch & CUDA",
         "LLM Inference",
         "MLIR"
@@ -49,7 +51,7 @@ developer = {
   <img src="https://skillicons.dev/icons?i=python,cpp,git,github,linux,vscode&theme=dark" />
 </p>
 
-### Backend & Data
+### Backend & Database
 
 <p>
   <img src="https://skillicons.dev/icons?i=fastapi,postgres&theme=dark" />
@@ -57,14 +59,13 @@ developer = {
 
 ![SQLAlchemy](https://img.shields.io/badge/SQLAlchemy-D71F00?style=flat-square&logo=sqlalchemy&logoColor=white)
 ![Alembic](https://img.shields.io/badge/Alembic-Database_Migrations-555555?style=flat-square)
-![REST API](https://img.shields.io/badge/REST-API-087E8B?style=flat-square)
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
 
 ### AI Applications & Retrieval
 
 `LLM Agent` · `Tool Calling` · `Ollama` · `RAG` · `BM25` · `Vector Retrieval` · `Reranking`
 
-### Hardware & Systems Background
+### Hardware & Systems
 
 `Verilog` · `Vivado / Quartus` · `ModelSim` · `Digital Design` · `Embedded Systems`
 
@@ -72,73 +73,64 @@ developer = {
 
 ## 🚀 Featured Projects
 
-<table>
-<tr>
-<td width="50%" valign="top">
+### 🗺️ GroupHang — 多人协同出行规划 Agent
 
-### 🗺️ GroupHang
+面向多人出行中地点信息分散、协作决策复杂等问题，开发支持自然语言地点解析、候选地点管理与人工确认的协同规划应用。
 
-**LLM Agent for Collaborative Trip Planning**
+**核心工作：**
 
-A multi-user trip planning platform with a controlled Agent workflow and human confirmation.
+- **后端架构：** 基于 FastAPI、异步 SQLAlchemy 与 PostgreSQL 构建应用后端。
+- **Agent 工作流：** 实现地点提取、地图核验、方案预览、人工确认等受控执行环节。
+- **工程质量：** 构建自动化测试、Mock 测试与离线 LLM 评测体系。
 
-**Highlights**
-- FastAPI + async SQLAlchemy + PostgreSQL
-- Natural language location extraction
-- Tool execution with human-in-the-loop control
-- Automated tests and offline LLM evaluations
+**Tech Stack**
 
-**Stack:** `Python` `FastAPI` `PostgreSQL` `Agent`
+`Python` `FastAPI` `PostgreSQL` `LLM Agent` `Testing`
 
-[Explore Repository](https://github.com/9-XQQ/GroupHang)
+📂 [查看项目仓库](https://github.com/9-XQQ/GroupHang)
 
-</td>
-<td width="50%" valign="top">
+---
 
-### 📚 Paper Research Agent
+### 📚 Paper Research Agent — 论文研究助手
 
-**Evidence-grounded Research Assistant**
+围绕学术论文的证据检索与引用溯源，探索结合多种检索策略的 RAG 工作流。
 
-A research-oriented RAG project focused on retrieval quality and traceable evidence.
+**主要技术方向：**
 
-**Key Areas**
-- BM25 + dense vector retrieval
-- Reciprocal Rank Fusion (RRF)
-- Reranking and source attribution
-- Citation validation and evaluation
+- **混合检索：** 结合 BM25 与向量检索，提高候选文献片段的覆盖能力。
+- **检索优化：** 使用 RRF 融合与重排序改善检索结果。
+- **证据溯源：** 关注原文定位、引用校验与可追踪的回答生成。
 
-**Stack:** `Python` `RAG` `Retrieval`
+**Tech Stack**
 
-*Work in progress · Repository to be published*
+`Python` `RAG` `BM25` `Vector Search` `Reranking`
 
-</td>
-</tr>
-</table>
+*研究与开发项目 · 仓库暂未公开*
 
 ---
 
 ## 🔬 Currently Learning
 
-My current focus is moving from AI applications toward **inference systems and compiler infrastructure**.
+目前正在从 AI 应用开发逐步深入到 **LLM Inference & Compiler Infrastructure**。
 
-| Area | Learning Focus |
+| 技术方向 | 当前学习内容 |
 |:---|:---|
-| PyTorch | Tensor operations, CPU/GPU execution, benchmarking |
-| CUDA | GPU memory, synchronization, execution model |
-| LLM Inference | KV Cache, batching, TTFT / TPOT |
-| MLIR | Dialects, operations, transformations, lowering |
-| vLLM / Triton | Inference serving and GPU kernel fundamentals |
+| PyTorch | Tensor 操作、CPU/GPU 执行、性能测量 |
+| CUDA | GPU 内存模型、Host-Device 数据传输、同步机制 |
+| LLM Inference | Attention、KV Cache、推理性能指标 |
+| MLIR | Dialect、Operation、Pass、Lowering |
+| vLLM / Triton | 后续计划学习推理服务和 GPU Kernel 优化 |
 
-These are active learning topics, not claims of production-level expertise.
+> 持续记录学习过程，通过实验和 Benchmark 理解系统行为，而不仅仅是调用已有框架。
 
 ---
 
-## 📌 Engineering Interests
+## 💡 Engineering Interests
 
-- Building reliable and testable AI applications
-- Improving LLM system performance
-- Understanding compilers and hardware-aware optimization
-- Bridging software engineering and computer architecture
+- **AI Systems：** 关注 Agent、RAG 与大模型应用的系统设计和可靠性。
+- **Inference Optimization：** 学习推理性能分析、显存管理与执行优化。
+- **Compiler Infrastructure：** 探索 MLIR、编译优化与软硬件协同。
+- **Software Engineering：** 重视自动化测试、可复现评测与代码质量。
 
 ---
 
@@ -148,6 +140,6 @@ These are active learning topics, not claims of production-level expertise.
 
 *Build · Measure · Learn · Improve*
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0B1120,100:0E7490&height=90&section=footer"/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0B1120,100:0E7490&height=90&section=footer" />
 
 </div>
