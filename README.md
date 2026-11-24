@@ -18,7 +18,7 @@
 
 ## 👋 About Me
 
-你好！我是一名自动化专业硕士研究生，具有脑机接口（BCI）研究背景，目前主要关注 **AI Systems、Python Backend 和 LLM Inference**。
+你好！我是一名自动化专业硕士研究生，目前主要关注 **AI Systems、Python Backend 和 LLM Inference**。
 
 喜欢通过实际项目理解技术，关注从应用开发到系统实现的完整过程。
 
