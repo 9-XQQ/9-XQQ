@@ -15,31 +15,19 @@
 
 </div>
 
+
 ## 👋 About Me
 
-你好！我是一名自动化专业的硕士研究生。
+你好！我是一名自动化专业硕士研究生，具有脑机接口（BCI）研究背景，目前主要关注 **AI Systems、Python Backend 和 LLM Inference**。
 
-目前主要关注 **AI 应用开发、Python 后端工程，以及大模型推理与编译优化方向**。
+喜欢通过实际项目理解技术，关注从应用开发到系统实现的完整过程。
 
-喜欢从实际项目出发理解技术，不仅关注功能实现，也关注系统架构、运行效率和工程可靠性。
-
-```python
-developer = {
-    "background": "Automation / BCI",
-    "languages": ["Python", "C/C++", "SQL"],
-    "engineering": [
-        "Backend Development",
-        "LLM Agent Workflows",
-        "Retrieval Systems",
-        "Automated Testing"
-    ],
-    "currently_learning": [
-        "PyTorch & CUDA",
-        "LLM Inference",
-        "MLIR"
-    ]
-}
+```text
+Building    → Python Backend · LLM Agent · RAG
+Exploring   → PyTorch · CUDA · MLIR
+Interested  → AI Infrastructure · Inference Optimization
 ```
+
 
 ---
 
