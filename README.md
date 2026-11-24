@@ -1,19 +1,28 @@
 
+
 <div align="center">
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0B1120,100:0E7490&height=190&section=header&text=9-XQQ&fontSize=55&fontColor=ffffff&fontAlignY=38&desc=Python%20Backend%20%7C%20AI%20Systems&descAlignY=62&descSize=18" />
+  <!-- Orange Cat Banner -->
+  <img
+    src="assets/profile-cat-banner.png"
+    width="680"
+    alt="Orange cat resting on a blue-gray platform"
+  />
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=18&duration=3000&pause=1000&color=0891B2&center=true&vCenter=true&width=680&lines=Building+reliable+AI+applications;Exploring+LLM+inference+systems;Learning+by+building+and+measuring" alt="Typing SVG" />
+  <p>
+    <strong>自动化背景 · AI 应用开发 · 大模型系统</strong>
+  </p>
 
-<p>
-  <a href="https://github.com/9-XQQ">
-    <img src="https://img.shields.io/badge/GitHub-9--XQQ-181717?style=flat-square&logo=github" />
-  </a>
-  <img src="https://img.shields.io/badge/Focus-AI%20Systems-0891B2?style=flat-square" />
-  <img src="https://img.shields.io/badge/Status-Learning%20%26%20Building-2563EB?style=flat-square" />
-</p>
+  <p>
+    <img src="https://img.shields.io/badge/Background-Automation%20%2F%20BCI-64748b?style=flat-square" />
+    <img src="https://img.shields.io/badge/Focus-Python%20Backend-2563eb?style=flat-square" />
+    <img src="https://img.shields.io/badge/Focus-AI%20Systems-0e7490?style=flat-square" />
+  </p>
 
 </div>
+
+---
+
 
 
 ## 👋 About Me
